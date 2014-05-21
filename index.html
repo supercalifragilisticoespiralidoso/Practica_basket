@@ -1,0 +1,190 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ejemplo Practica 1 movil</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="principal" data-theme="b">
+	<div data-role="header">
+		<h1> Basketball </h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#Jordan" data-transition="flip"> Michael Jordan </a></li>
+            <li><a href="#LeBron" data-transition="pop"> LeBron James </a></li>
+			<li><a href="#Fotos" data-transition="slidedown"> FOTOS </a></li>
+		</ul>
+        <div data-role="content" align="justify">
+        <div align="center"	>
+        <a href="#Basket" data-rel="popup" data-position-to="window">
+        <img src="imagenes/576825_481373808598273_1595032827_n.jpg" alt="Skaret View" style="width:100px;"></a>	
+        <div data-role="popup" id="Basket">
+         <p>Esto es Basketball</p>
+         <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="imagenes/576825_481373808598273_1595032827_n.jpg" style="width:800px;height:500px;" alt="Skare View">
+         </div> 
+        </div>
+        This is Basketball <br>
+        ¿Facil?
+¿Quien dijo que seria facil? 
+En el basket tienes que entrenar,mejorar,esforzarte.
+Tienes que dejar tu vida,no,tu alma! en la duela.
+En cada entra a canasta,cada pase,cada dribleo,cada salto,
+cada canasta...
+Si no juegas con amor
+¿Entonces para que juegas?
+¿Quieres algo facil?
+vete a jugar Futbol
+¿Quieres un reto?
+¡¡Juega Basketball!!
+<a href="#mypop" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all"> E-mail </a>
+ <div data-role="popup" id="mypop">
+ <p> val_velezdf@hotmail.com </p>
+  </div>
+  <a href="#mypopp" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all"> Facebook </a>
+  <div data-role="popup" id="mypopp">
+  <p>Vale Blake </p>
+  </div>
+	</div>
+        
+        <div data-role="content">
+    <div data-role="collapsible-set">
+    <div data-role="collapsible" data-collapsed="true">
+    <h1>Tenis</h1>
+    <a href="#Tenis" data-rel="popup" data-position-to="window">
+    <img src="imagenes/1379824_678677662193616_530413320_n.jpg" alt="Skaret View" style="width:100px;"></a>
+    
+    <div data-role="popup" id="Tenis">
+     <p>Tenis :3</p>
+     <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="imagenes/1379824_678677662193616_530413320_n.jpg" style="width:800px;height:500px;" alt="Skaret View">
+     </div>
+     </div>
+     </div>
+     </div>
+        
+        <div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconps="top">
+         <ul>
+           <li> <a href="#principal" data-transition="slide" data-icon="home"> INICIO </a> </li>
+           <li> <a href="#Ayuda" data-transition="flip" data-icon="star"> AYUDA </a></li>
+           <li> <a href="#Contacto" data-transition="slidedown" data-icon="info"> CONTACTO </a></li>
+         </ul>
+        </div
+        
+        ></div>
+	</div>
+</div>
+
+<div data-role="page" id="Jordan" data-theme="b">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> Regresar </a>
+		<h1>Michael Jordan</h1>
+	</div>
+	<div data-role="content">	
+		Contenido	
+        <center><img src="imagenes/1959447_726285564082422_421803603_n.jpg" ></center>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconps="top">
+         <ul>
+           <li> <a href="#principal" data-transition="slide" data-icon="home"> INICIO </a> </li>
+           <li> <a href="#Ayuda" data-transition="flip" data-icon="alert"> AYUDA </a></li>
+           <li> <a href="#Contacto" data-transition="slidedown" data-icon="info"> CONTACTO </a></li>
+         </ul>
+        </div
+        
+        ></div>
+	</div>
+</div>
+
+<div data-role="page" id="LeBron" data-theme="b">
+	<div data-role="header">
+      <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> Regresar </a>
+		<h1> LeBron James </h1>
+	</div>
+	<div data-role="content">	
+		Contenido	
+        <center><img src="imagenes/1623669_710762005634778_1579753325_n.jpg" width="800" height="800" ><center>
+    <div data-role="footer"data-position="fixed">
+		<div data-role="navbar" data-iconps="top">
+         <ul>
+           <li> <a href="#principal" data-transition="slide" data-icon="home"> INICIO </a> </li>
+           <li> <a href="#Ayuda" data-transition="flip" data-icon="alert"> AYUDA </a></li>
+           <li> <a href="#Contacto" data-transition="slidedown" data-icon="info"> CONTACTO </a></li>
+         </ul>
+        </div
+        
+        ></div>
+	</div>
+</div>
+
+<div data-role="page" id="Fotos"  data-theme="b">
+	<div data-role="header">
+      <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> Regresar </a>
+		<h1> FOTOS </h1>
+	</div>
+	<div data-role="content">	
+		<center><img src="imagenes/1513679_705822606128718_788572803_n.jpg"> <center>
+       <center> <img src="imagenes/1506584_725810330796612_835112436_n.jpg" width="851" height="315"><center>
+       <center><img src="imagenes/1545153_499160920197333_1115199719_n.jpg" width="720" height="768" ><center>
+       <center><img src="imagenes/1964861_724918747552437_1871879554_n.jpg" width="500" height="387"><center>
+
+    </div>
+	<div data-role="footer" data-position="fixed">
+    <div data-role="navbar" data-iconps="top">
+         <ul>
+           <li> <a href="#principal" data-transition="slide" data-icon="home"> INICIO </a> </li>
+           <li> <a href="#Ayuda" data-transition="flip" data-icon="alert"> AYUDA </a></li>
+           <li> <a href="#Contacto" data-transition="slidedown" data-icon="info"> CONTACTO </a></li>
+         </ul>
+        </div><h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Ayuda"  data-theme="b">
+	<div data-role="header">
+
+          <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">Back</a>
+	</div>
+	<div data-role="content">	
+    <center><p><h1>¿Ayuda?</h1></p></center>
+       <center> <img src="imagenes/amor.png" width="" height=""> </center>
+	</div>
+	<div data-role="footer"  data-position="fixed">
+			<div data-role="navbar" data-iconpos="top">
+                <ul>
+     <li><a href="#principal" data-transition="slide" data-icon="home">INICIO</a>    </li>
+    <li><a href="#Ayuda" data-transition="fade" data-icon="alert">AYUDA</a>    </li>
+    <li><a href="#Contacto" data-transition="flip" data-icon="star">CONTACTO</a> </li>
+    </ul>
+            
+    		</div>
+	</div>
+</div>
+
+<div data-role="page" id="Contacto"  data-theme="b"
+>
+	<div data-role="header">
+          <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">Come Back</a>
+	</div>
+	<div data-role="content">	
+       <center> <img src="imagenes/1939706_727293533981625_1873438360_n.jpg"> </center>
+	</div>
+	<div data-role="footer"  data-position="fixed">
+			<div data-role="navbar" data-iconpos="top">
+                <ul>
+     <li><a href="#principal" data-transition="slide" data-icon="home">INICIO</a>    </li>
+    <li><a href="#Ayuda" data-transition="fade" data-icon="alert">AYUDA</a>    </li>
+    <li><a href="#Contacto" data-transition="flip" data-icon="info">CONTACTO</a> </li>
+    </ul>
+    		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
